@@ -26,6 +26,8 @@ public class ProyectoRefactoring {
         generarUsuario.registrarUsuario(usuario1);
         
         
+        //Ejemplo Divergent Change
+        
         
         
         

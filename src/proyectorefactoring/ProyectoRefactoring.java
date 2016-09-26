@@ -6,6 +6,8 @@ public class ProyectoRefactoring {
 
     public static void main(String[] args) {
         
+        //Ejemplo Long parameter list
+        
         String nombre = "Alejandro";
         String apellido = "Arevalo";
         String nombreUsuario = "Alemu";
@@ -22,6 +24,7 @@ public class ProyectoRefactoring {
         GestorUsuario generarUsuario = new GestorUsuario();
         
         generarUsuario.registrarUsuario(usuario1);
+        
         
         
         

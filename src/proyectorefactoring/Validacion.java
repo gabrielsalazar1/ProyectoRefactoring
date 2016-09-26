@@ -10,9 +10,19 @@ package proyectorefactoring;
  * @author Administrator
  */
 public class Validacion {
+    public static boolean validarUsuario(Usuario usuario){
+        return validarNombre(usuario.getNombre()) && validarTelefono(usuario.getTelefono());
+    }
     
-    public static boolean validarNombre(String nombre){
+    private static boolean validarNombre(String nombre){
         if(nombre == null){
+            return false;
+        }
+        return true;
+    }
+    
+    private static boolean validarTelefono(long telefono){
+        if(telefono < 100000000){
             return false;
         }
         return true;
